@@ -1,0 +1,96 @@
+@media only screen and (max-width: 767px) {
+    body{
+        background: linear-gradient(-45deg, rgba(255, 255, 255, 0.89), rgba(0, 0, 0, 0.103));      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        border: 2px solid red;
+        font-family: Montserrat;
+        font-size: 19px;
+    }
+
+    .id-checker{
+        text-align: center;
+        font-family: Fraunces;
+    }
+
+    .id-checker input {
+        display: block; /* Change inline to block */
+        margin: 0 auto; /* Center horizontally */
+        margin-bottom: 10px; /* Add some space between elements */
+    }
+
+    #checker{
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+        border-right: 2px solid rgba(0, 0, 0, 0.6);
+    }
+
+    #submit{
+        padding: 5px 30px;
+        border-radius: 7px;
+        border-right-style: none;
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid rgba(228, 217, 217, 0.959);
+    }
+
+    hr {
+        width: 80%;
+        background-color: rgb(138, 137, 137);
+        height: 1px;
+    }
+
+    .user-info{
+        display: flex;
+        /*border: 2px solid red;*/
+        margin-top: 10px;
+    }
+
+    .user-info img{
+        padding: 15px;
+        /*border: 2px solid blue;*/
+        width: 40px;
+    }
+
+    /* Add styles for field elements */
+    .field {
+        display: grid;
+        /*border: 2px solid brown;*/
+        grid-template-rows: auto auto;
+        gap: 5px;
+        text-align: center;
+    }
+
+    label{
+        grid-row: 1;
+        /*border: 5px solid gray;*/
+    }
+
+    .field input{
+        grid-row: 2;
+        width: 300px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 7px 0;
+        text-align: center;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+        border-right: 2px solid rgba(0, 0, 0, 0.6);
+    }
+    
+    input{
+        font-size: 18px;
+        height: auto;
+        font-weight: 500;
+        border: none;
+    }
+    
+    .hide{
+        display: none;
+    }
+}
